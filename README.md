@@ -38,6 +38,11 @@ The following packages are required for building i3-ipc:
 * json-glib >= 0.14
 * gtk-doc-tools
 
+### Debian 12 dependencies:
+```shell
+sudo apt install -y gtk-doc-tools libglib2.0-dev libtool gobject-introspection libxcb1-dev libjson-glib-dev
+```
+
 ## Example
 
 The i3ipc connection class extends from [GObject](https://developer.gnome.org/gobject/stable/).
